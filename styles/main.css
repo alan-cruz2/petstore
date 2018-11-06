@@ -1,0 +1,109 @@
+@font-face {
+  font-family: Avenir;
+  src: url(/AvenirNext-Regular.otf);
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  background: #FEEAE3;
+  font-family: Avenir, "Avant Garde", Helvetica, Sans-Serif;
+}
+
+body {
+  background: #fff;
+  width: 80vw;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0 25px 25px;
+  overflow: hidden;
+}
+
+#GlobalHeader {
+  padding: 15px 15px 0;
+  border-bottom: 1px solid #262626
+}
+
+.content-container {
+  display: none;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.content-container.visible {
+  display: block;
+}
+
+.nav {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.nav li {
+  display: inline;
+	margin: 0px 22px 0px 0px;
+	padding-bottom: 6px;
+	user-select: none;
+  cursor: default;
+  color: #babec5;
+}
+
+.nav li .nav-link {
+  text-decoration: none;
+  color: unset;
+}
+
+.nav li.active {
+  border-bottom: 1px solid #262626;
+  color: #262626;
+}
+
+#AboutContent > section {
+  margin-bottom: 20px;
+}
+
+#AddressSection {
+  white-space: pre-line;
+}
+
+#ContactForm {
+  width: 100%;
+}
+
+#ContactForm > div {
+  margin: 7px 0;
+}
+
+#ContactForm > div,
+#ContactForm input,
+#ContactForm textarea {
+  width: 80%;
+}
+
+#ContactForm input,
+#ContactForm textarea {
+  border: 1px solid #babec5;
+}
+
+#ContactForm > input[type="submit"] {
+  background: #262626;
+  color: #fff;
+  width: 250px;
+  font-family: Avenir, "Avant Garde", Helvetica, Sans-Serif;
+}
+
+#ContactForm input,
+#ContactForm > input[type="submit"] {
+  height: 30px;
+  line-height: 30px;
+}
+
+#ContactHeader {
+  font-family: Avenir, "Avant Garde", Helvetica, Sans-Serif;
+}
+
+#PdfResume {
+  width: 100%;
+  height: 100%;
+}

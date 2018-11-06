@@ -1,0 +1,68 @@
+<html>
+  <head>
+      <meta charset="utf-8" />
+      <title>Title</title>
+      <link href="styles/main.css" rel="stylesheet" />
+      <link href="js/main.js" />
+      <script type="text/javascript" src="js/main.js"></script>
+  </head>
+  <body>
+      <header>
+          <hgroup>
+              <h1 id="GlobalHeader">Kenia</h1>
+          </hgroup>
+      </header>
+      <nav>
+          <ul class="nav">
+              <li><a class="nav-link" href="javascript:void(0)" data-target="Home">Home</a></li>
+              <li><a class="nav-link" href="javascript:void(0)" data-target="About">About Me</a></li>
+              <li><a class="nav-link" href="javascript:void(0)" data-target="Resume">Resume</a></li>
+              <li><a class="nav-link" href="javascript:void(0)" data-target="Contact">Contact me</a></li>
+          </ul>
+      </nav>
+      <section>
+          <article id="HomeContent" class="content-container">
+              <section>
+                  <img src="https://loremflickr.com/320/240?random=1" />
+              </section>
+              <section>
+                  Put something cool here.
+              </section>
+          </article>
+          <article id="AboutContent" class="content-container">
+              <section>
+                  <img src="https://loremflickr.com/320/240?random=2" />
+              </section>
+              <section>
+                  Vaporware plaid ugh single-origin coffee gluten-free forage portland. Tattooed gentrify kinfolk actually messenger bag chillwave fingerstache shaman. Lo-fi taxidermy fam aesthetic tofu pitchfork, vice tbh health goth. Pinterest organic squid, irony neutra kale chips gochujang air plant vegan intelligentsia snackwave banjo adaptogen PBR&B edison bulb.
+              </section>
+              <section>
+                  Farm-to-table lo-fi affogato blog. Woke +1 meditation authentic austin hot chicken unicorn synth prism semiotics migas pickled sriracha. Hexagon kogi lomo unicorn. Yr bicycle rights four loko thundercats, before they sold out gastropub mustache la croix chillwave wayfarers YOLO gochujang. Pabst activated charcoal shabby chic street art kickstarter raclette fixie meh kale chips.
+              </section>
+          </article>
+          <article id="ResumeContent" class="content-container">
+              <section>
+                <object data="/content/KeniaFabian_Resume_SanDiego.pdf" type="application/pdf" id="PdfResume">
+                  <embed src="/content/KeniaFabian_Resume_SanDiego.pdf" type="application/pdf" />
+                </object>
+              </section>
+          </article>
+          <article id="ContactContent" class="content-container">
+            <section id="AddressSection">
+              Put Address here...
+              Address Line 1
+              Address Line 2
+              City, State
+              Zip Code
+            </section>
+            <section>
+              <form id="ContactForm">
+                <div><input type="text" name="Subject" placeholder="Subject"/></div>
+                <div><textarea name="Body" cols="40" rows="10" placeholder="Body"></textarea></div>
+                <input type="submit"/>
+              </form>
+            </section>
+          </article>
+      </section>
+  </body>
+</html>
